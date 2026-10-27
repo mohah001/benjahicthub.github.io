@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benjah ICT Hub</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5fb;
+    color: #263247;
+}
+header {
+    background: #071b3a;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+nav {
+    background: #123e78;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(135deg, #071b3a, #1687ff);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+.button {
+    display: inline-block;
+    background: white;
+    color: #123e78;
+    padding: 13px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 18px;
+}
+h2 {
+    color: #123e78;
+    text-align: center;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    border-top: 5px solid #1687ff;
+    box-shadow: 0 4px 12px #00000010;
+}
+.about, .contact {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+    line-height: 1.8;
+}
+.contact {
+    text-align: center;
+}
+footer {
+    background: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media (max-width: 600px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Benjah ICT Hub</h1>
+    <p>Your Technology, Our Passion!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2 style="color:white;">Welcome to Benjah ICT Hub</h2>
+    <p>Your trusted partner for computer services, networking,
+    website design and data entry solutions.</p>
+    <a class="button" href="#contact">Contact Us</a>
+</section>
+
+<main class="container">
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Benjah ICT Hub provides practical technology services
+        to help individuals and businesses work smarter.
+        We focus on computer support, networking, website
+        design and data management.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>💻 Computer Services</h3>
+                <p>Computer setup, software installation and troubleshooting.</p>
+            </div>
+            <div class="card">
+                <h3>📶 Networking & Wi-Fi</h3>
+                <p>Wi-Fi setup, network configuration and connectivity support.</p>
+            </div>
+            <div class="card">
+                <h3>🌐 Website Design</h3>
+                <p>Modern websites for businesses and individuals.</p>
+            </div>
+            <div class="card">
+                <h3>📊 Data Entry</h3>
+                <p>Data entry and organization using Excel and Google Sheets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Need help with computers or technology? Get in touch!</p>
+        <p>Email: YOUR-EMAIL@example.com</p>
+        <a class="button" href="mailto:YOUR-EMAIL@example.com">Send Us an Email</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Benjah ICT Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
